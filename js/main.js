@@ -13,5 +13,9 @@
     let elapsedTime = (Date.now() - startTime) / 1000;
     result.textContent = elapsedTime.toFixed(3);
     // toFixed(3)で小数点第3位まで表示するよう設定
+    let diff = elapsedTime - 5;
+    if(Math.abs(diff) < 1.0){
+      result.className = 'perfect';
+    };
   });
 }
