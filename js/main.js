@@ -26,6 +26,7 @@
     result.textContent = elapsedTime.toFixed(3);
     this.className = 'pushed';
     start.className = '';
+    result.className = '';
     // toFixed(3)で小数点第3位まで表示するよう設定
     let diff = elapsedTime - 5;
     if(Math.abs(diff) < 1.0){
