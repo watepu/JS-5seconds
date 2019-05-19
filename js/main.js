@@ -15,6 +15,7 @@
     this.className = 'pushed';
     stop.className = '';
     result.textContent = '0.000';
+    result.className = 'standby';
   });
 
   stop.addEventListener('click', function(){
