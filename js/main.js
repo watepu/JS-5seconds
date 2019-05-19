@@ -14,6 +14,7 @@
     startTime = Date.now();
     this.className = 'pushed';
     stop.className = '';
+    result.textContent = '0.000';
   });
 
   stop.addEventListener('click', function(){
